@@ -40,7 +40,7 @@
 </head>
 <body class="font-poppins">
     <header class="md:container md:mx-auto">
-        <nav>
+        <nav class="lg:my-11">
             <div class="navbar bg-base-100">
                 <div class="flex-1">
                   <div class="dropdown">
@@ -366,15 +366,26 @@
                   </div>
                 </div>
               </div>
-
         </section>
-
-
-
     </main>
-    <footer>
-
-    </footer>
+    <footer class="footer p-9 lg:px-96 bg-[#0B0D17] text-neutral-content justify-between flex">
+        <aside>
+            <h3 class="text-base font-medium text-[#FFF]">Download Now</h3>
+            <div class="flex gap-3 lg:gap-6 text-[#FFF] pt-2 pb-4 lg:pt-3 pb-6">
+                <p>About</p>
+                <p>Features</p>
+                <p>Pricing</p>
+            </div>
+            <p class="font-light text-xs lg:text-sm text-[#D9DBE1]">© 2020 bike. All rights reserved</p>
+        </aside> 
+        <nav>
+          <header class="footer-title font-medium text-base lg:text-lg">Get the App</header> 
+          <div class="grid grid-cols-1 gap-4">
+            <a><img class="w-28 lg:w-36" src="images/others/android.png" alt=""></a> 
+            <a><img class="w-28 lg:w-36" src="images/others/ios.png" alt=""></a> 
+          </div>
+        </nav>
+      </footer>
     
 </body>
 </html>
